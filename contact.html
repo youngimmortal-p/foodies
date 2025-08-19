@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="welcome">
+        <div class="spinner"></div>
+        Welcome to Foodies
+    </div>
+    <main id="page">
+    <header class="navbar">
+        <div class="logo">Foodies</div>
+        <nav>
+            <ul class="nav-links" id="navlinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact container slideinRight">
+        <h2>Contact Us</h2>
+        <p id="msg" class="msg"></p>
+        <form class="contactForm" id="contact-form">
+            <input type="text" placeholder="Your Name..." required>
+            <input id="input2" type="email" placeholder="Your Email..." required>
+            <textarea id="text" placeholder="message" required></textarea>
+            <button id="submitbtn" class="btn bounce" type="submit">Send</button>
+        </form>
+
+        <div class="info-grid">
+            <div>4, Bridget Avenue, LAGOS</div>
+            <div>+234 700 675 3465</div>
+            <div>info@foodies.com</div>
+            <div>Mon-Sun: 8am - 10pm</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Foodies. All rights reserved. </p>
+    </footer>
+</main>
+    <script src="./script.js"></script>
+</body>
+</html>
